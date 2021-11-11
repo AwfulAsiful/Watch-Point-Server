@@ -165,7 +165,7 @@ run().catch(console.dir);
 
 
 app.get('/',(req,res)=>{
-    res.send('Hello Madari!!!');
+    res.send('Running server!!!');
 })
 app.listen(port,()=>{
     console.log('Listening from port',port);
